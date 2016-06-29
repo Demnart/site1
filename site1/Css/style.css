@@ -1,0 +1,65 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    min-height: 100%;
+    width: 1034px;
+
+    margin: 0  auto;
+}
+#header{
+    position: absolute;
+    height: 288px;
+    width: 100%;
+    background-image: url(img/header.jpg);
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+#logotype{
+    position: relative;
+    top: 38px;
+    left: 44px;
+    bottom: 181px;
+    right: 784px;
+}
+#loginform{
+    height: 100px;
+    width: 200px;
+    position: relative;
+    left: 748px;
+    top: -40px;
+
+}
+#login{
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    width: 200px;
+    height: 10px;
+    text-align: left;
+    float: left;
+}
+#password{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height:10px;
+    top:-45px;
+
+}
+#form1{
+    position: relative;
+    top: -38px;
+    left: 55px;
+    border-radius: 10px;
+}
+#form2{
+    position: relative;
+    top: -72px;
+    left: 55px;
+    border-radius: 10px;
+}
+
