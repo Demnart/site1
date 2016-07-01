@@ -2,21 +2,21 @@ html,body{
     height: 100%;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 #container{
     min-height: 100%;
     width: 1034px;
-
     margin: 0  auto;
+    padding:0;
 }
 #header{
-    position: absolute;
     height: 288px;
     width: 100%;
     background-image: url(img/header.jpg);
-    background-repeat: no-repeat;
-    z-index: 10;
+    margin:0;
+    padding:0;
 }
 #logotype{
     position: relative;
@@ -61,5 +61,138 @@ html,body{
     top: -72px;
     left: 55px;
     border-radius: 10px;
+}
+#enter {
+    position: relative;
+    top: -122px;
+    left:210px;
+
+}#entertext{
+    position: relative;
+     top:-23px;
+     left:-49px;
+     text-decoration: none;
+     color: white}
+a{
+       color: #000;
+    font-family:"Times New Roman" ;
+}
+
+#homepage{
+
+    position: relative;
+    top:70px;
+    left:10px;
+ }
+#zakladki{
+    position: relative;
+    left:155px;
+    top:51px;
+}
+#RSS{
+    position: relative;
+    left:900px;
+    top:40px;
+}
+#RSSimg {
+    position: relative;
+    left: 990px;
+    top: 20px;
+}
+#topmenu{
+    background-image: url("img/topmenu.jpg");
+  /*  background-color: red;*/
+    width:100%;
+    height: 78px;
+    margin: 0;
+    padding:0;
+}
+ul{
+    padding:0;
+    margin: 0;
+}
+li{
+    display: inline-block;
+    padding:1.5em;
+    /*margin:10px;*/
+    float: left;
+    height:10px;
+    width:80px;
+    /*border: 1px solid black;*/
+    margin: 0 auto ;
+    text-align: center;
+}
+li a{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    /*border:1px solid black;*/
+    /*border-color:transparent ;*/
+    top:-15px;
+    padding: 0.5em;
+    border-radius: 30px;
+}
+li a:hover{
+    background-color: #ff8c00;
+}
+#leftbar1{
+    width:216px;
+    height:523px;
+    float: left;
+    border:1px solid lightsteelblue;
+    border-radius: 25px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+#content{
+    width:542px;
+    height: 701px;
+    float: left;
+   margin: 10px 19px;
+    border:1px solid lightsteelblue;
+    border-radius: 25px;
+
+}
+#rightbar1{
+    width:214px;
+    height: 332px;
+    margin-top:10px ;
+    border:1px solid lightsteelblue;
+    border-radius: 25px;
+    float: right;
+    margin-bottom: 10px;
+}
+#leftbar2{
+    position: relative;
+    left:-816px;
+    top:200px;
+    width:216px;
+    height: 184px;
+    float: right;
+    border:1px solid lightsteelblue;
+    border-radius: 25px;
+
+}
+#rightbar2{
+    position: relative;
+    top:-186px;
+    width:214px;
+    height:316px;
+    border:1px solid lightsteelblue;
+    border-radius: 25px;
+    float: right;
+
+}
+#clear{
+    height:128px ;
+}
+#footer{
+    background-image:url("img/footer.jpg");
+    clear: both;
+    height:128px ;
+    width:1034px;
+    margin: 0 auto;
+    border: 1px solid black;
 }
 
